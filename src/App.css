@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #efefef;
+  padding: 20px 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px 4px #bfbfbf;
+  border-radius: 5px;
+  height: 90vh;
+  overflow-y: overlay;
+}
+
+body .heading {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.ant-select-multiple .ant-select-selection-item {
+  height: 27px;
+}
